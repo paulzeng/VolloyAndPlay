@@ -1,0 +1,7 @@
+#{extends 'main.html' /}
+#{set title:'Home' /}
+<form action="@{Application.login()}" method="POST">
+<input type="text" name="email">
+<input type="text" name="password">
+<button>submmit</button>
+</form>
